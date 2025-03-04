@@ -1,15 +1,15 @@
 # Fine-Tuning Llama 2 Using QLoRA
 
-QLoRA (Quantization Low-Rank Adaptation) is an efficient method for fine-tuning large language models like Llama 2. It combines quantization techniques with low-rank adaptation to reduce memory usage while maintaining performance.
+QLoRA (Quantized Low-Rank Adaptation) is an efficient method for fine-tuning large language models like Llama 2. It combines quantization techniques with low-rank adaptation to reduce memory usage while maintaining performance.
 
 ---
 
-## Table of Contents
+## Features
 
-1. [Setup Environment](#setup-environment)
-2. [Prepare Dataset](#prepare-dataset)
-3. [Fine-Tuning with QLoRA](#fine-tuning-with-qlora)
-4. [Save and Evaluate Model](#save-and-evaluate-model)
+- Fine-tunes Meta's Llama 2 using Hugging Face's `transformers` and `trl`.
+- Utilizes `peft` for efficient QLoRA-based training.
+- Supports dataset loading and training with custom configurations.
+- Saves and reloads fine-tuned models for inference.
 
 ---
 
